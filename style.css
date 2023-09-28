@@ -2,6 +2,7 @@
     display: flex;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #1e1e2b3d;  
 }
 
 body{
@@ -20,7 +21,9 @@ body{
 }
 
 #pontos{
-  font-size: 25px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
   display: flex;
   color: black;
   font-family: 'Poppins', sans-serif;
@@ -28,18 +31,20 @@ body{
   height: 40px;
   width: 170px;
   border-radius: 10px;
+  padding: 6px;
 }
 
 .preto{
   background-color: #1e1e2b;
   display: flex;
-  margin-top: 5%;
+  margin-top: 7%;
   width: 800px;
   height: 500px;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 5px 5px 5px 5px #1e1e2b3d;
 }
 
 .logo{
@@ -74,6 +79,7 @@ body{
   border-radius: 6px;
   font-weight: 500;
   color: var(--color);
+  text-decoration: none;
  }
  
  .btn:before {

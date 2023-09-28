@@ -4,7 +4,7 @@ window.onload = function () {
     document.addEventListener("keydown", keyPush)
 
 
-    setInterval(jogo, 95); //define intervalo para uma função ser chamada no jog varias vezes (a cada 60 milisegundos)
+    setInterval(jogo, 95); //define intervalo para uma função ser chamada no jogo varias vezes (a cada 60 milisegundos)
 
 
     const vel = 1; //velocidade = quantas casas a cobrinha vai andar quando chamar a função jogo
@@ -22,7 +22,7 @@ window.onload = function () {
     tail = 5;//tamanho da cauda
 
     function jogo() {
-        px += vx; //posição onde a cobra ja está + a velocidade que ela tem, ou seja pra onde ela ta se movimentando
+        px += vx; //posição onde a cobra ja está + a velocidade que ela tem, ou seja pra onde ela esta se movimentando
         py += vy;
         if (px < -1) {
             alert("[GAME OVER] Você TROMBOU na parede!\nSua pontuação: " + pontuacao);
